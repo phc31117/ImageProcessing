@@ -48,6 +48,10 @@ plt.axis("off")
 plt.title("Difference")
 plt.imshow(diffrence)
 
+
+plt.subplots_adjust(top=1, bottom=0, right=1, left=0, wspace=0.5, hspace=0)
+plt.margins(0, 0)
+
 # save the result
-plt.savefig("pics/gaussian_noise_result.jpg")
+plt.savefig("pics/gaussian_noise_result.jpg", bbox_inches='tight', pad_inches=1.0)
 plt.show()
