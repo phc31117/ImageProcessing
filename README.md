@@ -1,5 +1,9 @@
 # Image Processing
 
+**python version : 3.8.8**
+
+**opencv version : 4.8.1**
+
 ## Add Gaussian Noise
 Random generate noise : 50 variations with sigma = 35
 ![](pics/gaussian_noise_result.jpg)

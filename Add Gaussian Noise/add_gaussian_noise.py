@@ -33,19 +33,19 @@ diffrence = final - img
 plt.figure(figsize=(img.shape[0]*0.005,img.shape[1]*0.005))
 plt.subplot(1,3,1)
 plt.axis("off")
-plt.title("Before (Initial Image)")
+plt.title("Before (Initial Image)", fontsize=50)
 plt.imshow(img)
 
 # Image with Gaussian Noise
 plt.subplot(1,3,2)
 plt.axis("off")
-plt.title("After (With Gaissian Noise)")
+plt.title("After (With Gaissian Noise)", fontsize=50)
 plt.imshow(final)
 
 # Difference
 plt.subplot(1,3,3)
 plt.axis("off")
-plt.title("Difference")
+plt.title("Difference", fontsize=50)
 plt.imshow(diffrence)
 
 
