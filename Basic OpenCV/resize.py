@@ -15,25 +15,25 @@ resized_cubic = cv2.resize(img, (500, 500), cv2.INTER_CUBIC)
 plt.figure(figsize=(img.shape[0],img.shape[1]))
 plt.subplot(1,4,1)
 plt.axis("off")
-plt.title("Original", fontsize=60)
+plt.title("Original", fontsize=80)
 plt.imshow(img)
 
 # INTER_NEAREST
 plt.subplot(1,4,2)
 plt.axis("off")
-plt.title("cv2.INTER_NEAREST", fontsize=60)
+plt.title("cv2.INTER_NEAREST", fontsize=80)
 plt.imshow(resized_nearest)
 
 # INTER_LINEAR
 plt.subplot(1,4,3)
 plt.axis("off")
-plt.title("cv2.INTER_LINEAR", fontsize=60)
+plt.title("cv2.INTER_LINEAR", fontsize=80)
 plt.imshow(resized_linear)
 
 # INTER_CUBIC
 plt.subplot(1,4,4)
 plt.axis("off")
-plt.title("cv2.INTER_CUBIC", fontsize=60)
+plt.title("cv2.INTER_CUBIC", fontsize=80)
 plt.imshow(resized_cubic)
 
 
