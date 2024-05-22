@@ -28,5 +28,10 @@ resized_img = cv2.resize(img, (500, 500), cv2.INTER_NEAREST)
 `cv2.wrapAffine`
 
 
+## HE (Histogram Equalization)
+![](pics/HE_1.jpg)
+![](pics/HE_2.jpg)
 
-  
+## CLAHE (Contrast Limited Adaptive Histogram Equalization)
+![](pics/CLAHE_1.jpg)
+![](pics/CLAHE_2.jpg)
